@@ -1,3 +1,8 @@
+#content4:after{
+content:" ";
+display:table;
+clear:both;
+}
 #c4column1{
 background-color:red;
 color:blue;
