@@ -1,3 +1,8 @@
+#content2:after{
+content:" ";
+display:table;
+clear:both;
+}
 #c2column2{
 background-color:red;
 color:blue;
@@ -26,4 +31,9 @@ p{
 font-size:30px;
 margin:0;
 padding-top:281.5px;  
+}
+#content2:after{
+content:" ";
+display:table;
+clear:both;
 }
