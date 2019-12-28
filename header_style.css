@@ -1,5 +1,8 @@
 #header{
-text-align:center;
-color:darkgreen;
 background-color:black;
+overflow:hidden;
+}
+h3{
+color:darkgreen;
+text-align:center;
 }
