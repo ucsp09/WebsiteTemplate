@@ -1,60 +1,31 @@
 #navbar{
-background-color:darkgreen;
-overflow:hidden;
+    background-color:green;
+    overflow:hidden;
 }
-ul{
-list-style-type:none;
-margin:0;
-padding:0;
+#left-navbar{
+    height:40px;
+    float:left;
+    position:relative;
+    left:10%;
+}
+#right-navbar{
+    height:40px;
+    float:right;
+    position:relative;
+    right:10%;
 }
 a{
-text-decoration:none;
-color:black;
-font-size:medium;
-padding-top:7px;
-padding-bottom:7px;
+    color:black;
+    position:relative;
+    top:10px;
+    font-size:large;
+    text-decoration:none;
 }
-a:hover{
-background-color:black;
-color:darkgreen;
+#active{
+    background-color:black;
+    color:darkgreen;
 }
-#home{
-float:left;
-position:relative;
-left:100px;
-}
-#abcdef{
-float:left;
-position:relative;
-left:150px;
-}
-#ghijkl{
-float:left;
-position:relative;
-left:200px;
-}
-#mnopqr{
-float:left;
-position:relative;
-left:250px;
-}
-#stuvwx{
-float:left;
-position:relative;
-left:300px;
-}
-#login{
-float:right;
-position:relative;
-right:100px;
-}
-#signup{
-float:right;
-position:relative;
-right:150px;
-}
-#contact{
-float:right;
-position:relative;
-right:200px;
+a:hover:not(#active){
+    background-color:black;
+    color:darkgreen;
 }
