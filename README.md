@@ -1,2 +1,2 @@
-# Basic_FrontEnd_Template
-Creating a Basic website template using HTML,CSS,JAVASCRIPT.
+# WebsiteTemplate
+  A basic website template built using html and css. 
