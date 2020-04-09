@@ -1,0 +1,141 @@
+body{
+margin:0;
+}
+.nav{
+    background-color:black;
+    overflow:hidden;
+}
+.nav a{
+    float:left;
+    display:block;
+    text-decoration:none;
+    padding:14px 16px;
+    color:white;
+}
+.lef{
+    position:relative;
+    left:20%;
+}
+.rig{
+    position:relative;
+    right:10%;
+}
+.nav a.active{
+    background-color:white;
+    color:dodgerblue;
+}
+.nav a:hover:not(.active)
+{
+    background-color:white;
+    color:dodgerblue;
+}
+.about h1{
+    text-align:center;
+    color:gray;
+}
+.about p{
+    color:black;
+    text-align:center;
+}
+.about{
+    background-color:white;
+}
+.contact{
+    background-color:white;
+    position:relative;
+    left:20%;
+}
+.contact h1{
+    text-align:left;
+    color:gray;
+}
+.content p{
+    text-align:left;
+    color:black;
+}
+.login{
+    background-color:white;
+    position:relative;
+    left:30%;
+    top:10%;
+    width:30%;
+    height:60%;
+    border:1px solid gray;
+}
+.login h2{
+    color:black;
+    text-align:center;
+    padding-top:20%;
+}
+.login input{
+    width:80%;
+    position:relative;
+    left:10%;
+    right:10%;
+    height:10%;
+    border-radius:25px;
+}
+.login input.sign:hover{
+    background-color:black;
+    color:white;
+}
+#i0{
+    position:relative;
+    left:10%;
+    top:5%;
+    text-decoration:none;
+    color:dodgerblue;
+}
+#i1{
+    position:relative;
+    right:10%;
+    top:5%;
+    float:right;
+    text-decoration:none;
+    color:dodgerblue;
+}
+.signup{
+    background-color:white;
+    position:relative;
+    left:20%;
+    top:5%;
+    width:50%;
+    height:70%;
+    border:1px solid gray;
+}
+.signup h2{
+    color:black;
+    text-align:center;
+    padding-top:5%;
+    position:relative;
+    right:15%;
+}
+.signup input{
+    width:30%;
+    position:relative;
+    left:10%;
+    right:10%;
+    height:8%;
+    border-radius:25px;
+}
+.signup p{
+    position:relative;
+    left:10%;
+    right:10%;
+}
+.Sign{
+    background-color:dodgerblue;
+    color:white;
+}
+.signup input.Sign:hover{
+    background-color:black;
+    color:white;
+}
+#i03{
+    text-decoration:none;
+    float:right;
+    color:dodgerblue;
+    position:relative;
+    right:40%;
+    top:2%;
+}
